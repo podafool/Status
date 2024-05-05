@@ -11,4 +11,4 @@ BOT_LIST = list(getenv("ShinobuMusicBot SVDsinger_bot Rose_milk_chat_bot").split
 CHANNEL_OR_GROUP_ID = int(getenv("-1001975251757"))
 MESSAGE_ID = int(getenv("https://t.me/TeamHyperBOts/7"))
 BOT_ADMIN_IDS = list(map(str, getenv("7030014736 655594746 6900132473").split()))
-CHECK_DELAY = int(getenv("30"))
+CHECK_DELAY = int(getenv("300"))
